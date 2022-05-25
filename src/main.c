@@ -398,9 +398,6 @@ int main(void) {
 
   /* System Init */
   SystemInit();
-  
-  /* Identify BlueNRG-1 platform */
-  SdkEvalIdentification();
 
 
   /* Init the UART peripheral */

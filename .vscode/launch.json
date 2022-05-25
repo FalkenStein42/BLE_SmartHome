@@ -4,8 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Debug with ST-Link",
+            "preLaunchTask": "Make",
+            "cwd": "${workspaceFolder}",
+            "executable": "./bin/${config:binaryFileName}.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stlink",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "both",
+            "svdFile": "${workspaceRoot}/pack/SVD/BlueNRG1.svd"
+        },
 	{
-        "name": "Debug (ST-Link)",
+        "name": "Debug OpenOCD (ST-Link)",
         //Comment prelaunch task to disable building before upload
         "preLaunchTask": "Make",
         "cwd": "${workspaceRoot}",
@@ -22,7 +34,7 @@
         "svdFile": "${workspaceRoot}/pack/SVD/BlueNRG1.svd"
     },
     {
-        "name": "Debug (JLink)",
+        "name": "Debug OpenOCD (JLink)",
         //Comment prelaunch task to disable building before upload
         "preLaunchTask": "Make",
         "cwd": "${workspaceRoot}",

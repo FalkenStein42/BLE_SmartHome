@@ -8,12 +8,13 @@
     }
     ],
 
-    "armToolchainVersion": "10.2.1",
-    "cortex-debug.armToolchainPath": "C:/PROGRA~2/GNUARM~1/102020~1/bin", 
-    "cortex-debug.openocdPath": "${workspaceRoot}/openocd-0.11.0-rc1/bin/openocd.exe",
+    "armToolchainVersion": "",
+    "cortex-debug.armToolchainPath": "C:/WORKSP~1/BLUENR~1/GCC-AR~1/112_20~1.02/bin", 
+    "cortex-debug.openocdPath": "C:/Workspaces2/BlueNRG1_Workspace/openocd-20211118/OpenOCD-20211118-0.11.0/bin/openocd.exe",
     //Please modify this to your server location if different
-    "cortex-debug.JLinkGDBServerPath": "C:/Program Files (x86)/SEGGER/JLink_V635c/JLinkGDBServerCL.exe",
+    //"cortex-debug.JLinkGDBServerPath": "C:/Program Files (x86)/SEGGER/JLink_V635c/JLinkGDBServerCL.exe",
     //TODO: update this with your user directory's name
-    "bluenrgDkLocation":"C:/Users/cmart/ST/BLUENR~1.1/Library",
-    "binaryFileName":"blinkTest"
+    "bluenrgDkLocation":"C:/WORKSP~1/BLUENR~1/BLUENR~1.2/Library",
+    "binaryFileName": "blinkTest1",
+    "cortex-debug.showRTOS": true
 }
