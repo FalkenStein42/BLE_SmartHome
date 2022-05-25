@@ -80,7 +80,7 @@ Here is the location of where the BlueNRG-1 DK is from https://www.st.com/conten
 
 ### You can support this project by picking up a Development Board from [here](https://www.tindie.com/products/22570/)
 
-![pinout](/images/pinout.svg)
+![pinout](/images/pinout.png)
 
 Design files can be found [here](https://oshwlab.com/cmarting99/discutil_copy)
 
